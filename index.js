@@ -9,6 +9,8 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 8080;
 
+console.log('MONGO_URI:', process.env.MONGO_URI);
+
 app.use(express.json());
 app.use("/", routes);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
