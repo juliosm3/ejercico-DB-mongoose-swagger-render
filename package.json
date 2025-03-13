@@ -1,20 +1,25 @@
 {
     "name": "ejercicio-mongo-solucion",
     "version": "1.0.0",
-    "description": "",
+    "description": "Para este ejercicio se pide documentar la API utilizando swagger y desplegar la misma en Render.",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon index.js"
+        "dev": "nodemon index.js",
+        "start": "node index.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "dotenv": "^16.4.1",
-        "express": "^4.18.2",
-        "mongoose": "^8.1.1",
-        "swagger-ui-express": "^5.0.0"
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "ejercicio-mongo-solucion": "file:",
+        "express": "^4.21.2",
+        "mongoose": "^8.12.1",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
     },
     "devDependencies": {
         "nodemon": "^3.0.3"
-    }
+    },
+    "keywords": []
 }
